@@ -13,6 +13,15 @@
 		AA0A1039239ABC57002B241D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA0A1037239ABC57002B241D /* Main.storyboard */; };
 		AA0A103B239ABC59002B241D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA0A103A239ABC59002B241D /* Assets.xcassets */; };
 		AA0A103E239ABC59002B241D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA0A103C239ABC59002B241D /* LaunchScreen.storyboard */; };
+		AA0A1046239ABD27002B241D /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0A1045239ABD27002B241D /* GradientView.swift */; };
+		AA0A104C239ABFBF002B241D /* Designable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0A104B239ABFBF002B241D /* Designable.swift */; };
+		AA0A104E239AC580002B241D /* GamePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0A104D239AC580002B241D /* GamePageViewController.swift */; };
+		AA0A1050239AC6BB002B241D /* other.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0A104F239AC6BB002B241D /* other.swift */; };
+		AA0A1056239AC81B002B241D /* UIControl+Tactile.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0A1052239AC81A002B241D /* UIControl+Tactile.swift */; };
+		AA0A1057239AC81B002B241D /* Utilities+Tactile.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0A1053239AC81A002B241D /* Utilities+Tactile.swift */; };
+		AA0A1058239AC81B002B241D /* UIView+Tactile.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0A1054239AC81B002B241D /* UIView+Tactile.swift */; };
+		AA0A1059239AC81B002B241D /* Tactile.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0A1055239AC81B002B241D /* Tactile.swift */; };
+		AA0A105B239AD121002B241D /* ScorePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0A105A239AD121002B241D /* ScorePageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,15 @@
 		AA0A103A239ABC59002B241D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA0A103D239ABC59002B241D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA0A103F239ABC59002B241D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA0A1045239ABD27002B241D /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		AA0A104B239ABFBF002B241D /* Designable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Designable.swift; sourceTree = "<group>"; };
+		AA0A104D239AC580002B241D /* GamePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePageViewController.swift; sourceTree = "<group>"; };
+		AA0A104F239AC6BB002B241D /* other.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = other.swift; sourceTree = "<group>"; };
+		AA0A1052239AC81A002B241D /* UIControl+Tactile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIControl+Tactile.swift"; sourceTree = "<group>"; };
+		AA0A1053239AC81A002B241D /* Utilities+Tactile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Utilities+Tactile.swift"; sourceTree = "<group>"; };
+		AA0A1054239AC81B002B241D /* UIView+Tactile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Tactile.swift"; sourceTree = "<group>"; };
+		AA0A1055239AC81B002B241D /* Tactile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tactile.swift; sourceTree = "<group>"; };
+		AA0A105A239AD121002B241D /* ScorePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScorePageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,14 +75,31 @@
 			isa = PBXGroup;
 			children = (
 				AA0A1031239ABC57002B241D /* AppDelegate.swift */,
+				AA0A105A239AD121002B241D /* ScorePageViewController.swift */,
 				AA0A1033239ABC57002B241D /* SceneDelegate.swift */,
 				AA0A1035239ABC57002B241D /* ViewController.swift */,
 				AA0A1037239ABC57002B241D /* Main.storyboard */,
 				AA0A103A239ABC59002B241D /* Assets.xcassets */,
 				AA0A103C239ABC59002B241D /* LaunchScreen.storyboard */,
 				AA0A103F239ABC59002B241D /* Info.plist */,
+				AA0A1045239ABD27002B241D /* GradientView.swift */,
+				AA0A104B239ABFBF002B241D /* Designable.swift */,
+				AA0A1051239AC81A002B241D /* Tactile */,
+				AA0A104D239AC580002B241D /* GamePageViewController.swift */,
+				AA0A104F239AC6BB002B241D /* other.swift */,
 			);
 			path = "Guac-A-Mole";
+			sourceTree = "<group>";
+		};
+		AA0A1051239AC81A002B241D /* Tactile */ = {
+			isa = PBXGroup;
+			children = (
+				AA0A1052239AC81A002B241D /* UIControl+Tactile.swift */,
+				AA0A1053239AC81A002B241D /* Utilities+Tactile.swift */,
+				AA0A1054239AC81B002B241D /* UIView+Tactile.swift */,
+				AA0A1055239AC81B002B241D /* Tactile.swift */,
+			);
+			path = Tactile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,7 +175,16 @@
 			files = (
 				AA0A1036239ABC57002B241D /* ViewController.swift in Sources */,
 				AA0A1032239ABC57002B241D /* AppDelegate.swift in Sources */,
+				AA0A1056239AC81B002B241D /* UIControl+Tactile.swift in Sources */,
+				AA0A1046239ABD27002B241D /* GradientView.swift in Sources */,
+				AA0A1050239AC6BB002B241D /* other.swift in Sources */,
+				AA0A1058239AC81B002B241D /* UIView+Tactile.swift in Sources */,
 				AA0A1034239ABC57002B241D /* SceneDelegate.swift in Sources */,
+				AA0A104C239ABFBF002B241D /* Designable.swift in Sources */,
+				AA0A105B239AD121002B241D /* ScorePageViewController.swift in Sources */,
+				AA0A1059239AC81B002B241D /* Tactile.swift in Sources */,
+				AA0A1057239AC81B002B241D /* Utilities+Tactile.swift in Sources */,
+				AA0A104E239AC580002B241D /* GamePageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
